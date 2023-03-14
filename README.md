@@ -48,9 +48,25 @@ git config --global user.email "jakaria455173@gmail.com"
 git config --list
 ```
 
+#### Output
+
+``````Bash
+user.name=jakaria455173
+user.email=jakaria455173@gmail.com
+``````
+
+### When you open the global configuration file `~/.gitconfig`, you will see the content saved as:
+
+```Bash
+[user]
+    name = jakaria455173
+    email = jakaria455173@gmail.com
+```
+
 #### [Go to top:arrow_up: ](#top)
 
 <a name="git-2"></a>
+
 
 
 
