@@ -67,6 +67,41 @@ user.email=jakaria455173@gmail.com
 
 <a name="git-2"></a>
 
+### 2. git init
+
+> **The first command every developer should know is `git init`. This command initializes an empty Git repository in the current directory. This command creates a .git directory in the current directory, which is where Git stores all the information about the repository, including the commit history and the files themselves.
+The git init command can be used in two ways:
+Either changes a directory using the cd command and run git init to create a Git repository….**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
