@@ -362,9 +362,40 @@ git pull
 এই কমান্ডটি রিমোট রিপোজিটরি থেকে সমস্ত পরিবর্তন ডাউনলোড করে আপনার স্থানীয় রিপোজিটরিতে আপডেট করে দেয়। যদি কোনও পরিবর্তন থাকে তবে এটি আপনার স্থানীয় কম্পিউটারে সেট করা হবে। আপনি একই রিপোজিটরি থেকে পুল এবং পুশ করতে পারবেন ।
  </details>
 
+	
+#### [Go to top:arrow_up: ](#top)
+
+<a name="git-merge"></a>
+
+### 10. git merge
+	
+<b>`git merge` is a Git command that allows you to combine changes from different branches into a single branch. When you merge a branch into another branch, Git integrates the changes made on the source branch into the target branch. 
+
+Here's the basic syntax for the `git merge` command:
+
+```
+git merge <source-branch>
+```
+
+This command merges the changes from the `source-branch` into the currently checked out branch (i.e., the target branch). 
+
+If there are any conflicts between the changes made on the source branch and the target branch, Git will prompt you to resolve them manually. Once you have resolved any conflicts, you can commit the changes to complete the merge.
+
+It's worth noting that there are several strategies that Git can use to perform the merge, such as the "recursive" and "octopus" strategies. By default, Git uses the "recursive" strategy, which is suitable for most merge scenarios. However, you can specify a different strategy using the `--strategy` option.</b>
 
 
+<details>
+	<summary><b>git merge কমান্ড:</b></summary>
+গিট মার্জ কমান্ড হলো গিটের একটি কমান্ড যা ব্যবহার করে আপনি একটি ব্রাঞ্চ থেকে অন্য একটি ব্রাঞ্চে পরিবর্তনগুলি সংযোজন করতে পারেন। যখন আপনি একটি ব্রাঞ্চে কাজ করছেন এবং আপনি অন্য একটি ব্রাঞ্চে কাজ করতে চান, তখন আপনি গিট মার্জ কমান্ড ব্যবহার করে দুটি ব্রাঞ্চ সমন্বয় করতে পারেন।
 
+একটি উদাহরণ দিয়ে সহজে বোঝানো যাক। ধরুন আপনি দুটি ব্রাঞ্চ আছে যেখানে প্রথম ব্রাঞ্চ নামঃ "মাস্টার" এবং দ্বিতীয় ব্রাঞ্চ নামঃ "ফিচার"। আপনি ফিচার ব্রাঞ্চে কাজ করছিলেন এবং এখন আপনি মাস্টার ব্রাঞ্চে কাজ করতে চান। এই স্থিতিতে আপনি গিট মার্জ কমান্ড ব্যবহার করে দুটি ব্রাঞ্চ সমন্বয় করতে পারেন। নিচে কমান্ডটি দেখানো হলো:
+
+```
+git merge master (branch)
+```
+
+এখানে "মাস্টার" হলো আপনার মাস্টার ব্রাঞ্চের নাম এবং "ফিচার" হলো আপনার ফিচার ব্র
+ </details>
 
 
 
