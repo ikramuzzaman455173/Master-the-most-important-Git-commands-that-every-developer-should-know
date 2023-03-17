@@ -249,9 +249,46 @@ git add file.txt
 উপরের কমান্ড ব্যবহার করা হলো ফাইল নাম `file.txt` ট্র্যাক করার জন্য। এটি ফাইলটি স্টেজ এলাকায় যোগ করবে।
  </details>
 
+#### [Go to top:arrow_up: ](#top)
+
+<a name="git-commit"></a>
+
+### git commit
+	
+<b>The git commit command is used to save changes to a local repository after staging changes with git add. When you run git commit, Git will open your default text editor so you can enter a commit message describing the changes you made. The commit message should be a brief summary of what you changed and why you changed it.
+
+The basic syntax for git commit is:
+
+```
+git commit -m "commit message"
+```
+	
+This creates a new commit with the changes you've staged with git add and a commit message describing those changes. The -m flag allows you to specify the commit message directly on the command line, rather than opening a text editor.
+
+You can also use the -a flag to automatically stage and commit all changes to tracked files in a single command:
+
+```
+git commit -a -m "commit message"
+```
+	
+This is useful for quickly committing changes without having to stage them first. However, be careful with this command as it can accidentally commit changes that you didn't intend to include.</b>
 
 
+<details>
+	<summary><b>git commit কমান্ড:</b></summary>
+গিট কমিট কমান্ড হল একটি গিট কমান্ড যা আপনাকে আপনার পরিবর্তনগুলি আপনার লোকাল রিপোজিটরিতে সংরক্ষণ করতে সাহায্য করে। এই কমান্ডটি আপনার পরিবর্তনগুলি স্থায়ীভাবে সংরক্ষণ করে এবং এটি আপনার লোকাল রিপোজিটরিতে একটি নতুন কমিট তৈরি করে।
 
+গিট কমিট কমান্ড ব্যবহার করার জন্য আপনাকে প্রথমে আপনার কাজ শেষ করতে হবে এবং আপনার কাজ সম্পর্কিত কোন পরিবর্তন না থাকলে কমিট করার দরকার নেই।
+
+গিট কমিট কমান্ড একটি ম্যাসেজ সহ হয় এবং এই ম্যাসেজ আপনার করা পরিবর্তনগুলি সম্পর্কে সংক্ষেপে বর্ণনা করে। এই ম্যাসেজটি আপনার পরিবর্তনগুলি সম্পর্কে সহজে বুঝতে সাহায্য করে এবং আপনার সমস্ত কমিট একটি নাম দেওয়া হয় যা আপনি পরবর্তীতে ব্যবহার করতে পারবেন।
+
+একটি উদাহরণ দেওয়া হলো:
+
+```
+git commit -m "আমার পরিবর্তনগ
+```
+	
+ </details>
 
 
 
