@@ -335,7 +335,32 @@ git push origin main
  </details>
 
 
+#### [Go to top:arrow_up: ](#top)
 
+<a name="git-pull"></a>
+
+	
+### git pull
+
+<b>`git pull` is a command used in Git version control system to fetch and download content from a remote repository and immediately update the local repository to match that content. It is a combination of two other commands, `git fetch` and `git merge`. 
+
+When you run `git pull`, Git will first fetch the latest changes from the remote repository and then merge those changes with the current branch in your local repository. If there are any conflicts between the remote changes and the local changes, Git will prompt you to resolve those conflicts before it completes the merge.
+
+It's important to note that `git pull` can potentially overwrite changes you've made locally, so it's a good practice to commit any changes before running this command.</b>
+	
+
+<details>
+	<summary><b>গিট পুল (git pull) কমান্ড:</b></summary>
+গিট পুল (git pull) কমান্ড হলো গিট রিপোজিটরি থেকে কোড ফাইলগুলি আপডেট করার জন্য ব্যবহৃত কমান্ড। এটি স্থানীয় রিপোজিটরিতে কাজ করে এবং এটি রিমোট রিপোজিটরি থেকে পুশ করা এবং একই রিপোজিটরি থেকে পুল করা কোড ফাইলগুলি আপডেট করে। 
+
+যখন আপনি কোনও প্রকল্পে কাজ করছেন এবং অন্য কেউ অবশ্যই আপনার পরিবর্তনগুলি আপলোড করেছেন তখন আপনার স্থানীয় রিপোজিটরিতে আপডেট করা প্রয়োজন হয়। এটি করতে আপনাকে নিম্নলিখিত কমান্ডটি চালাতে হবে:
+
+```
+git pull
+```
+
+এই কমান্ডটি রিমোট রিপোজিটরি থেকে সমস্ত পরিবর্তন ডাউনলোড করে আপনার স্থানীয় রিপোজিটরিতে আপডেট করে দেয়। যদি কোনও পরিবর্তন থাকে তবে এটি আপনার স্থানীয় কম্পিউটারে সেট করা হবে। আপনি একই রিপোজিটরি থেকে পুল এবং পুশ করতে পারবেন ।
+ </details>
 
 
 
