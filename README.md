@@ -394,12 +394,49 @@ It's worth noting that there are several strategies that Git can use to perform 
 git merge master (branch)
 ```
 
-এখানে "মাস্টার" হলো আপনার মাস্টার ব্রাঞ্চের নাম এবং "ফিচার" হলো আপনার ফিচার ব্র
+এখানে "মাস্টার" হলো আপনার মাস্টার ব্রাঞ্চের নাম এবং "ফিচার" হলো আপনার ফিচার ব্রাঞ্চ ।
  </details>
 
+	
+#### [Go to top:arrow_up: ](#top)
 
+<a name="git-checkout"></a>
 
+### 11. git checkout 
+	
+<b>`git checkout` is a Git command that allows you to switch between different branches or restore files in your working directory to a previous state. 
 
+Here are some common use cases for `git checkout`:
+
+- Switching between branches: `git checkout branch-name`
+- Creating a new branch and switching to it: `git checkout -b new-branch-name`
+- Discarding changes to a file: `git checkout -- file-name`
+- Restoring a file to a specific commit: `git checkout commit-hash -- file-name`
+
+It's important to note that `git checkout` can be a destructive command, as it can overwrite changes in your working directory. So, it's a good idea to commit any changes before running `git checkout`.</b>
+	
+
+<details>
+	<summary>গিট চেকআউট (git checkout) কমান্ড:</summary>
+গিট চেকআউট (git checkout) কমান্ড হলো গিট রিপোজিটরিতে বিভিন্ন ট্রি বা ব্রাঞ্চ এ Switched করার জন্য ব্যবহৃত হয়। এই কমান্ড দ্বারা আমরা গিট রিপোজিটরিতে কোন একটি ব্রাঞ্চ থেকে অন্য একটি ব্রাঞ্চে Switched করতে পারি বা একটি কমিট থেকে অন্য কমিটে Switched করতে পারি। 
+
+যেমনঃ 
+
+কমিট থেকে Switched করতে চাইলেঃ 
+
+```
+git checkout <commit-hash>
+```
+
+ব্রাঞ্চ থেকে Switched করতে চাইলেঃ 
+
+```
+git checkout <branch-name>
+```
+
+তবে এই কমান্ড ব্যবহার করার আগে আমাদের কোন কোন ফাইল মডিফাই করা হয়েছে তা স্টেজ করে রাখতে হবে না হলে ঐ ফাইল গুলো Switched করার সময় মুছে যাবে। 
+
+ </details>
 
 
 
