@@ -11,6 +11,7 @@
 - [git config](#git-config)
 - [git version](#git-version)
 - [git init](#git-init)
+- [git status](#git-status)
 - [git clone](#git-clone)
 - [git add](#git-add)
 - [git commit](#git-commit)
@@ -128,12 +129,29 @@ git version 2.17.1
 git version
 ```
 
+#### [Go to top:arrow_up: ](#top)
+
+<a name="git-init"></a>
+
 ### 3. git init
 
-> **The first command every developer should know is `git init`. This command initializes an empty Git repository in the current directory. This command creates a .git directory in the current directory, which is where Git stores all the information about the repository, including the commit history and the files themselves.
-The git init command can be used in two ways:
-Either changes a directory using the cd command and run git init to create a Git repository….**
+**The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.**
 
+<details>
+	<summary><b>গিট ইনিট কমান্ড :</b></summary>
+	<p>গিট ইনিট কমান্ড হলো গিট রিপোজিটরি তৈরি করার জন্য৷ এই কমান্ডটি দিয়ে আমরা কোন নির্দিষ্ট ফোল্ডার কে গিট রিপোজিটরি হিসেবে ব্যবহার করতে চাই তা নির্দিষ্ট করে দেই৷ এর ফলে ঐ ফোল্ডারে একটি .git নামক ফোল্ডার তৈরি হয় যেটি গোপন হয়ে থাকে এবং স্টেজ এবং কমিট করার জন্য সমস্ত লক্ষ্যযোগ্য ফাইল সংরক্ষণ করে রাখে৷</p>
+ </details>
+
+
+#### Usage :
+
+```
+git init
+```
+
+#### [Go to top:arrow_up: ](#top)
+
+<a name="git-status"></a>
 
 
 
