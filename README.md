@@ -417,7 +417,7 @@ It's important to note that `git checkout` can be a destructive command, as it c
 	
 
 <details>
-	<summary>গিট চেকআউট (git checkout) কমান্ড:</summary>
+	<summary><b>গিট চেকআউট (git checkout) কমান্ড:</b></summary>
 গিট চেকআউট (git checkout) কমান্ড হলো গিট রিপোজিটরিতে বিভিন্ন ট্রি বা ব্রাঞ্চ এ Switched করার জন্য ব্যবহৃত হয়। এই কমান্ড দ্বারা আমরা গিট রিপোজিটরিতে কোন একটি ব্রাঞ্চ থেকে অন্য একটি ব্রাঞ্চে Switched করতে পারি বা একটি কমিট থেকে অন্য কমিটে Switched করতে পারি। 
 
 যেমনঃ 
@@ -469,8 +469,8 @@ This will show the commit history with only the first few characters of the comm
 
 
 <details>
-	<summary>Table of Contents</summary>
-  গিট লগ কমান্ড হল একটি গিট কমান্ড যা আপনাকে একটি রিপোজিটরির সমস্ত কমিট লগ দেখাবে। এটি আপনাকে কমিটের হ্যাশ, কমিটারের নাম, কমিটারের ইমেল, কমিটের তারিখ এবং কমিটের ম্যাসেজ দেখাবে।
+	<summary><b>git log কমান্ড:</b></summary>
+গিট লগ কমান্ড হল একটি গিট কমান্ড যা আপনাকে একটি রিপোজিটরির সমস্ত কমিট লগ দেখাবে। এটি আপনাকে কমিটের হ্যাশ, কমিটারের নাম, কমিটারের ইমেল, কমিটের তারিখ এবং কমিটের ম্যাসেজ দেখাবে।
 
 আপনি নিচের কমান্ডটি ব্যবহার করে গিট লগ দেখতে পারেনঃ
 
@@ -486,7 +486,69 @@ git log --since=2021-01-01 --until=2021-12-31
 
  </details>
 
+	
+#### [Go to top:arrow_up: ](#top)
 
+<a name="git-branch"></a>
+
+### git branch
+	
+<b>The `git branch` command is a Git command used to list, create, or delete branches. A branch in Git is simply a lightweight movable pointer to a commit. When you create a branch, Git creates a new pointer to the same commit you’re currently on. 
+
+Here are some common use cases for `git branch`:
+
+- `git branch`: Lists all the local branches in the current Git repository.
+- `git branch <branch_name>`: Creates a new branch named `branch_name`.
+- `git branch -d <branch_name>`: Deletes the local branch named `branch_name`.
+- `git branch -m <old_branch_name> <new_branch_name>`: Renames the local branch named `old_branch_name` to `new_branch_name`.
+- `git branch -a`: Lists all the branches, both local and remote, in the current Git repository.
+
+By default, `git branch` lists only the local branches. If you want to see remote branches as well, you can use the `-a` option.</b>
+	
+
+<details>
+	<summary><b>git branch কমান্ড:</b></summary>
+গিট ব্রাঞ্চ কমান্ড হলো গিট রিপোজিটরিতে নতুন ব্রাঞ্চ তৈরি করার জন্য ব্যবহৃত কমান্ড। এটি মূলত একটি নতুন ব্রাঞ্চ তৈরি করে এবং একটি বিদ্যমান ব্রাঞ্চ থেকে নতুন ব্রাঞ্চ তৈরি করতে পারে।
+
+গিট ব্রাঞ্চ কমান্ড ব্যবহার করতে হলে নিম্নলিখিত ধাপগুলো অনুসরণ করতে হবেঃ
+
+```
+git branch <branch_name>
+```
+
+এখানে `<branch_name>` হলো নতুন ব্রাঞ্চের নাম। এই কমান্ডটি ব্যবহার করে আমরা নতুন একটি ব্রাঞ্চ তৈরি করতে পারি।
+
+আরও উপকারিতা হলো আমরা একটি বিদ্যমান ব্রাঞ্চ থেকে নতুন ব্রাঞ্চ তৈরি করতে পারি। এটি সম্ভব হলো একটি নতুন ব্রাঞ্চ তৈরি করে এবং তারপর কমান্ডটি ব্যবহার করে আমরা তাকে বিদ্যমান ব্রাঞ্চ হিসাবে সেট করতে পারি।
+
+উদাহরণঃ
+
+```
+git branch new_feature
+```
+
+উপরোক্ত কমান্ডটি ব্যবহার করে আমরা `new_feature` নামক নতুন একটি ব্রাঞ্চ তৈরি করেছি।
+ </details>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
