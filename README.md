@@ -8,23 +8,24 @@
 
 > Click on any topic to go there
 
-- [git config](#git-1)
-- [git init](#git-2)
-- [git clone](#git-3)
-- [git add](#git-4)
-- [git commit](#git-5)
-- [git push](#git-6)
-- [git pull](#git-7)
-- [git merge](#git-8)
-- [git checkout](#git-9)
-- [git log](#git-10)
-- [git branch](#git-11)
+- [git config](#git-config)
+- [git version](#git-version)
+- [git init](#git-init)
+- [git clone](#git-clone)
+- [git add](#git-add)
+- [git commit](#git-commit)
+- [git push](#git-push)
+- [git pull](#git-pull)
+- [git merge](#git-merge)
+- [git checkout](#git-checkout)
+- [git log](#git-log)
+- [git branch](#git-branch)
 
 
 ***
 
 
-<a name="git-1"></a>
+<a name="git-config"></a>
 ### 1. git config 
 
 **`git config` is a command that allows you to configure Git on your system. It enables you to view and modify Git's settings, such as your user name and email address, default text editor, and more.**
@@ -98,9 +99,36 @@ user.email=jakaria455173@gmail.com
 
 #### [Go to top:arrow_up: ](#top)
 
-<a name="git-2"></a>
+<a name="git-version"></a>
 
-### 2. git init
+
+### 2. git version
+
+**You can check your current version of Git by running the git --version command in a terminal (Linux, macOS) or command prompt (Windows). For example: git --version git version 2.7.4.**
+
+<details>
+	<summary> <b>গিট ভার্সন কমান্ড:</b> </summary>
+	<p>গিট ভার্সন কমান্ড হলো git version। এই কমান্ডটি ব্যবহার করে আপনি আপনার সিস্টেমে ইনস্টল করা গিটের সংস্করণ নম্বর দেখতে পারবেন।
+
+আপনি যদি আপনার টারমিনাল ওপেন করেন এবং git version টাইপ করেন তবে আপনার সিস্টেমে ইনস্টল করা গিটের সংস্করণ নম্বর দেখা যাবে। যেমনঃ
+
+```
+$ git version
+git version 2.17.1
+```
+		
+এখানে git version কমান্ডটি চালানোর পরে আউটপুট হিসেবে git version 2.17.1 দেখা যাচ্ছে, যেখানে 2.17.1 হলো আপনার ইনস্টল করা গিট সংস্করণ নম্বর।</p>
+	
+ </details>
+
+
+#### Usage:
+
+```
+git version
+```
+
+### 3. git init
 
 > **The first command every developer should know is `git init`. This command initializes an empty Git repository in the current directory. This command creates a .git directory in the current directory, which is where Git stores all the information about the repository, including the commit history and the files themselves.
 The git init command can be used in two ways:
