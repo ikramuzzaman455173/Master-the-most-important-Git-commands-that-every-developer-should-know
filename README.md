@@ -153,7 +153,7 @@ git init
 
 <a name="git-status"></a>
 
-### git status
+### 4. git status
 
 **The git status command `displays the state of the working directory and the staging area`. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.**
 
@@ -180,7 +180,7 @@ git status
 
 <a name="git-clone"></a>
 
-### git clone
+### 5. git clone
 
 **git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command `copies an existing Git repository`.**
 
@@ -215,7 +215,7 @@ git clone
 
 <a name="git-add"></a>
 
-### git add
+### 6. git add
 
 <b>The git add command is used to add changes to the staging area in Git. When you make changes to a file in your local repository, those changes are not automatically tracked by Git. You need to explicitly tell Git which changes you want to include in the next commit. This is where the git add command comes in.
 
@@ -253,7 +253,7 @@ git add file.txt
 
 <a name="git-commit"></a>
 
-### git commit
+### 7. git commit
 	
 <b>The git commit command is used to save changes to a local repository after staging changes with git add. When you run git commit, Git will open your default text editor so you can enter a commit message describing the changes you made. The commit message should be a brief summary of what you changed and why you changed it.
 
@@ -294,7 +294,7 @@ git commit -m "আমার পরিবর্তনগ
 
 <a name="git-push"></a>
 
-### git push
+### 8. git push
 	
 <b>The `git push` command is used to upload local repository content to a remote repository. This means that any changes you have made to your local repository will be reflected in the remote repository after the `git push` command is executed.
 
@@ -340,7 +340,7 @@ git push origin main
 <a name="git-pull"></a>
 
 	
-### git pull
+### 9. git pull
 
 <b>`git pull` is a command used in Git version control system to fetch and download content from a remote repository and immediately update the local repository to match that content. It is a combination of two other commands, `git fetch` and `git merge`. 
 
