@@ -176,10 +176,41 @@ git init
 git status
 ```
 
+#### [Go to top:arrow_up: ](#top)
 
+<a name="git-clone"></a>
 
+### git clone
 
+**git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols. The git clone command `copies an existing Git repository`.**
 
+<details>
+	<summary><b> git clone কমান্ড:</b></summary>
+    গিট ক্লোন কমান্ড হল একটি গিট কমান্ড যা কোন রিপোজিটরির ক্লোন (অনুলিপি) তৈরি করায় ব্যবহার করা হয়। এটি স্থানীয় মেশিনের ডিরেক্টরি তে সরাসরি রিপোজিটরিকে ক্লোন করে নিয়ে আসে। এতে ক্লোন করার জন্য আবশ্যক পরিমাণ ইন্টারনেট সংযোগ এর জন্য ন্যূনতম ব্যবধান থাকে। এটি বিভিন্ন প্ল্যাটফর্মে ব্যবহৃত হয় যেমন উইন্ডোজ, ম্যাক ও লিনাক্স টার্মিনালে।
+
+গিট ক্লোন করার জন্য সঠিক কমান্ডটি হল,
+
+```
+git clone <repository-url>
+```
+	
+উদাহরণঃ
+
+```
+git clone https://github.com/example/repo.git
+```
+	
+এখানে আমরা গিটহাব থেকে কোন একটি রিপোজিটরি ক্লোন করতে চাচ্ছি। তাই উল্লেখ্য যে আমরা সঠিক url টি ব্যবহার করছি নাকি।
+
+কমান্ডটি চালানোর পরে গিট রিপোজিটরি ক্লোন হবে এবং লোকাল মেশিনে একটি নতুন রিপোজিটরি তৈরি হবে যা আপনি এর মধ্যে কাজ করতে পারবেন।
+ </details>
+
+#### Usage:
+
+```
+git clone
+```
+	
 
 
 
