@@ -4,7 +4,7 @@
 
 <a name="top"></a>
 
-## Top Most Usefull Git Commands That Every Developer Should Know 🙋‍♂️ content
+## Top Most Usefull Git Commands That Every Developer Should Know 🙋‍♂️ Table Of Content
 
 > Click on any topic to go there
 
@@ -290,9 +290,49 @@ git commit -m "আমার পরিবর্তনগ
 	
  </details>
 
+#### [Go to top:arrow_up: ](#top)
+
+<a name="git-push"></a>
+
+### git push
+	
+<b>The `git push` command is used to upload local repository content to a remote repository. This means that any changes you have made to your local repository will be reflected in the remote repository after the `git push` command is executed.
+
+The basic syntax for `git push` command is:
+
+```
+git push <remote> <branch>
+```
+
+Here, `<remote>` refers to the name of the remote repository, and `<branch>` refers to the name of the branch in your local repository that you want to push to the remote repository.
+
+For example, if you want to push the changes you have made in your local `master` branch to the `origin` remote repository, you would use the following command:
+
+```
+git push origin master
+```
+
+If the remote branch doesn't exist, `git push` will create it. If the remote branch does exist, `git push` will update it with the new changes.
+
+It's worth noting that you may need to authenticate with the remote repository before you can push changes to it.</b>
 
 
+<details>
+	<summary>Table of Contents</summary>
+গিট পুশ কমান্ড হল গিটের একটি কমান্ড যা লোকাল রিপোজিটরিতে কমিট করা পরিবর্তনগুলি রিমোট রিপোজিটরিতে পাঠানোর জন্য ব্যবহার করা হয়। এই কমান্ড ব্যবহার করে আপনি আপনার কাজের পরিবর্তনগুলি রিমোট রিপোজিটরিতে আপলোড করতে পারেন। 
 
+যদি আপনি নতুন ফিচার বা কোড লাইন যুক্ত করে থাকেন তবে আপনাকে প্রথমে লোকাল রিপোজিটরিতে কমিট করতে হবে। এরপর আপনি গিট পুশ কমান্ড ব্যবহার করে আপনার কাজের পরিবর্তনগুলি রিমোট রিপোজিটরিতে আপলোড করতে পারেন। 
+
+একটি উদাহরণ দেখা যাকঃ 
+
+```
+git push origin main
+```
+
+এখানে "origin" হল রিমোট রিপোজিটরির নাম এবং "main" হল মাস্টার ব্রাঞ্চের নাম। আপনি আপনার রিপোজিটরির নাম এবং ব্রাঞ্চের নাম দিয়ে কমান্ড ব্যবহার করতে পারেন। 
+
+এই কমান্ডটি ব্যবহার করে আপনি আপনার কাজের পরিবর্তনগুলি রিমোট রিপোজিটরিতে আপলোড করতে পারবেন ।
+ </details>
 
 
 
