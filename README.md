@@ -211,8 +211,43 @@ git clone https://github.com/example/repo.git
 git clone
 ```
 	
+#### [Go to top:arrow_up: ](#top)
 
+<a name="git-add"></a>
 
+### git add
+
+<b>The git add command is used to add changes to the staging area in Git. When you make changes to a file in your local repository, those changes are not automatically tracked by Git. You need to explicitly tell Git which changes you want to include in the next commit. This is where the git add command comes in.
+
+Here is the basic syntax of the git add command:
+
+```
+git add <file>
+```
+This command adds the specified file to the staging area. You can also use wildcards to add multiple files at once:
+
+```
+git add .
+```
+	
+This command adds all changes in the current directory and its subdirectories to the staging area.
+
+Once you've added your changes to the staging area, you can review them using the git status command. This will show you which files have been modified and which changes have been staged.</b>
+	
+	
+<details>
+	<summary><b>git add কমান্ড:</b></summary>
+	
+গিট এড কমান্ড হলো গিটে কোন ফাইল বা ফোল্ডার ট্র্যাক করার জন্য ব্যবহৃত হয়। এটি নতুন ফাইল বা ফোল্ডার ট্র্যাক করার জন্য ব্যবহৃত হলে গিট তাকে ট্র্যাক করবে এবং এটি স্টেজ এলাকায় যোগ করে দেবে। এটি একটি ফাইল বা ফোল্ডার ট্র্যাক করার জন্য ব্যবহৃত হলে গিট তাকে ট্র্যাক করবে এবং এটি স্টেজ এলাকায় যোগ করে দেবে।
+
+উদাহরণঃ
+
+```
+git add file.txt
+```
+	
+উপরের কমান্ড ব্যবহার করা হলো ফাইল নাম `file.txt` ট্র্যাক করার জন্য। এটি ফাইলটি স্টেজ এলাকায় যোগ করবে।
+ </details>
 
 
 
