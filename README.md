@@ -439,11 +439,52 @@ git checkout <branch-name>
  </details>
 
 
+#### [Go to top:arrow_up: ](#top)
+
+<a name="git-log"></a>
+
+### git log
+
+<b>`git log` is a command used in Git version control system to display the commit history of a repository. When you run `git log` in your terminal, it will show you a list of commits made in reverse chronological order, starting with the most recent commit.
+
+By default, `git log` shows the following information for each commit:
+
+- The commit hash, which is a unique identifier for that commit
+- The author of the commit
+- The date and time the commit was made
+- The commit message, which describes the changes made in that commit
+
+You can also use various options with the `git log` command to customize the output. For example, you can use the `--oneline` option to display each commit on a single line, or the `--graph` option to show the commit history as a graph.
+
+Here's an example of running `git log` with the `--oneline` option:
+
+```
+$ git log --oneline
+3a2c4b7 Add new feature
+8c4f9d1 Fix bug in existing feature
+e2a1b3f Initial commit
+```
+
+This will show the commit history with only the first few characters of the commit hash, along with the commit message, on a single line for each commit.</b>
 
 
+<details>
+	<summary>Table of Contents</summary>
+  গিট লগ কমান্ড হল একটি গিট কমান্ড যা আপনাকে একটি রিপোজিটরির সমস্ত কমিট লগ দেখাবে। এটি আপনাকে কমিটের হ্যাশ, কমিটারের নাম, কমিটারের ইমেল, কমিটের তারিখ এবং কমিটের ম্যাসেজ দেখাবে।
 
+আপনি নিচের কমান্ডটি ব্যবহার করে গিট লগ দেখতে পারেনঃ
 
+```
+git log
+```
 
+এই কমান্ডটি আপনাকে সমস্ত কমিট লগ দেখাবে। আপনি কমিট লগটি সংক্ষিপ্ত করতে পারেন এবং উপযুক্ত তথ্যগুলি দেখতে পারেন। উদাহরণস্বরূপ, আপনি আপনার কমিট লগটি তারিখ অনুযায়ী সংক্ষিপ্ত করতে পারেন এমনঃ
+
+```
+git log --since=2021-01-01 --until=2021-12-31
+```
+
+ </details>
 
 
 
