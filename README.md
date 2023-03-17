@@ -153,9 +153,28 @@ git init
 
 <a name="git-status"></a>
 
+### git status
 
+**The git status command `displays the state of the working directory and the staging area`. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.**
 
+<details>
+	<summary><b>git status কমান্ড</b></summary>
+	<p>git status এটি একটি গিট কমান্ড যা আপনাকে আপনার গিট রেপোসিটরি স্থিতি সম্পর্কে বিবেচনা করতে সাহায্য করে। যখন আপনি এই কমান্ডটি রান করবেন, তখন আপনার কাছে একটি রিপোর্ট দেখা দেয়া হবে যা নিম্নরূপ হতে পারে:
 
+- `Untracked files:` যে কোনও ফাইল যা আপনি আপনার রেপোসিটরিতে অ্যাড করা হয় নি, তা এখানে দেখানো হবে।
+- `Changes not staged for commit:` আপনি কোনও পরিবর্তন করেছেন কিন্তু তা এখনো কমিট করা হয় নি।
+- `Changes to be committed:` আপনি কোনও পরিবর্তন করেছেন এবং সেগুলি কমিট করা হবে।
+- `Branch ahead of 'origin/master' by X commits:` আপনার মাস্টার শাখাটি গিটহাবের 'origin / master' ব্রাঞ্চের চেয়ে একটি বা একাধিক কমিট আগে রয়েছে।
+- `Branch behind 'origin/master' by X commits:` আপনার মাস্টার শাখাটি `'origin / master'` ব্রাঞ্চের চেয়ে এক বা একাধিক কমিটটি পিছনে রয়েছে।
+
+এই রিপোর্ট দেখে আপনি আপনার রেপোসিটরিতে কোনও সমস্যা আছে কিনা তা জানতে পারেন।</p>
+ </details>
+
+#### Usage:
+
+```
+git status
+```
 
 
 
